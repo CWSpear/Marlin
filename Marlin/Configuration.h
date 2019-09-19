@@ -1274,6 +1274,8 @@
 #if ENABLED(BLTOUCH)
   //#define BLTOUCH_DELAY 500   // Minimum Command delay (ms). Enable and increase if needed
 
+  #define SERVO0_PIN 19
+
   /**
    * BLTouch V3.0 and newer smart series
    * For genuine BLTouch 3.0 sensors. Clones may be confused by 3.0 command angles. YMMV.
@@ -1483,7 +1485,7 @@
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
 
-#if(ENABLED(MachineEnder4) || ENABLED(MachineEnder5)
+#if(ENABLED(MachineEnder4) || ENABLED(MachineEnder5))
   #define INVERT_X_DIR true
   #define INVERT_Y_DIR true
   #define INVERT_Z_DIR true
