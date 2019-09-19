@@ -1274,8 +1274,6 @@
 #if ENABLED(BLTOUCH)
   //#define BLTOUCH_DELAY 500   // Minimum Command delay (ms). Enable and increase if needed
 
-  #define SERVO0_PIN 19
-
   /**
    * BLTouch V3.0 and newer smart series
    * For genuine BLTouch 3.0 sensors. Clones may be confused by 3.0 command angles. YMMV.
